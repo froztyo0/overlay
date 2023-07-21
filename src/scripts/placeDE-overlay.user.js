@@ -22,7 +22,7 @@ if (window.top !== window.self) {
 }
 
 function updateImage() {
-    overlayImage.src = "https://place.army/overlay_target.png?" + Date.now()
+    overlayImage.src = "https://github.com/froztyo0/pixelmaker/blob/main/outputs/overlay_combined.png?raw=true" + Date.now()
 }
 
-setInterval(function () {overlayImage.src = "https://place.army/overlay_target.png?" + Date.now()}, 30000);
+setInterval(function () {overlayImage.src = "https://github.com/froztyo0/pixelmaker/blob/main/outputs/overlay_combined.png?raw=true" + Date.now()}, 30000);
